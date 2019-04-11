@@ -22,7 +22,7 @@ function main() {
   }
 
   // Generate card divs and append them to the board 
-  let memoryBoard = document.querySelector('#memory_board');
+  let memoryBoard = document.querySelector('#memory-board');
   memoryBoard.innerHTML = createCardDivs();
 
   // Add event listener to the back of each card
