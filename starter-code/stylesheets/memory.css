@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#memory_board {
+  background: lightgray;
+	width:800px;
+	height:540px;
+	padding:70px;
+	margin: 0px auto;
+}
+
+
+.card .back {
+  background: #0d8faf;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+}
+
+div.block {
+  pointer-events: none;
+}
+
+
+#score {
+  border-radius: 8px;
+  font-size: 30px;
+  font-family: Arial;
+  width:200px;
+  padding: 20px;
+  padding-top: 0;
+  margin-left: 75%;
+}
+
+.container {
+  position: relative;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 67px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 26px;
+  text-align: center;
+}
