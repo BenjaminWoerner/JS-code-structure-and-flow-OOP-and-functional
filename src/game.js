@@ -13,10 +13,9 @@ function main() {
     memoryGame.cards.forEach(function (ele) {
       result += `
       <div class="card" data-card-name="${ele.name}">
-      <div class="back" name="${ele.img}"></div>
-      <div class="front" style="background: url(img/${ele.img}) no-repeat">
-      </div>
-      </div>`
+        <div class="back" name="${ele.img}"></div>
+        <div class="front" style="background: url(img/${ele.img}) no-repeat"> </div>
+      </div>`;
     });
     return result;
   }
